@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import {BsFillMoonStarsFill} from "react-icons/bs";
+import {AiFillGithub, AiFillLinkedin} from "react-icons/ai";
 
 export default function Home() {
   return (
@@ -24,6 +25,17 @@ export default function Home() {
             </li>
           </ul>
           </nav>
+          <div>
+            <h2>Anisha Hirani</h2>
+            <h3>Developer and designer.</h3>
+            <p>
+              Makers Academy graduate that is job hunting and looking to put their skills to the test.
+            </p>
+          </div>
+          <div>
+            <AiFillGithub />
+            <AiFillLinkedin />
+          </div>
         </section>
       </main>
     </div>
