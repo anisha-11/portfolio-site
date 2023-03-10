@@ -9,7 +9,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main></main>
+      <main>
+        <section className="min-h-screen"></section>
+        <nav></nav>
+      </main>
     </div>
   );
 }
