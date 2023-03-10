@@ -1,4 +1,5 @@
-import Head from 'next/head'
+import Head from 'next/head';
+import {BsFillMoonStarsFill} from "react-icons/bs";
 
 export default function Home() {
   return (
@@ -10,7 +11,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-      <main></main>
+      <main>
+        <section className="min-h-screen">
+          <nav>
+          <h1>developedbyAnisha</h1>
+          <ul>
+            <li><BsFillMoonStarsFill/></li>
+            <lli><a href="#">Resume</a></lli>
+          </ul>
+          </nav>
+        </section>
+      </main>
     </div>
   )
 }
