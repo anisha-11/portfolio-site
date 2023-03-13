@@ -18,7 +18,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-      <main className="bg-white px-10">
+      <main className="bg-white px-10 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
           <h1 className='text-xl font-burtons'>Developed by Anisha</h1>
@@ -33,55 +33,73 @@ export default function Home() {
           </nav>
           <div className="text-center p-10 py-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium">Anisha Hirani</h2>
-            <h3 className="text-2xl py-2">Developer and designer.</h3>
-            <p className="text-md py-5 leading-8 text-gray-800">
+            <h3 className="text-2xl py-2 md:text-3xl">Developer and designer.</h3>
+            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto">
               Makers Academy graduate that is job hunting and looking to put their skills to the test.
             </p>
           </div>
-          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
+          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 md:text-6xl">
             <AiFillGithub />
             <AiFillLinkedin />
           </div>
-          <div className="relative w-80 h-80 mx-auto mt-8 justify-center">
+          <div className="relative w-80 h-80 mx-auto mt-8 justify-center md:h-96 md:w-96">
             <Image src={profile} />
-          </div>
+          </div> 
         </section>
-        <section>
+        
+        <section className="flex min-h-screen justify-center align-center text-center flex-wrap:wrap items-stretch">
           <div>
-            <h3 className="text-3xl py-1 text-center">Projects Made</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 text-center">include text about projects.</p>
+            {/* <h3 className="text-3xl py-1 text-center">Projects Made</h3>
+            <p className="text-md py-2 leading-8 text-gray-800 text-center">include text about projects.</p> */}
           </div>
-          <div className="lg:flex gap-10">
+          <div className='h-1 grid grid-cols-3 gap-15 content-center max-w-l'>
             <div className="text-center shadow-lg p-12 rounded-xl my-8 mr-12 mx-auto justify-center">
-              <Image src={reelplaces} width={450} height={100}/>
+              <Image src={reelplaces} width={650} height={200}/>
               <h3 className="text-lg font-medium pt-8 pb-2">ReelPlaces</h3>
               <p>created web application....add more later</p>
             </div>
+            <div className="text-center shadow-lg p-12 rounded-xl my-8 mr-12 mx-auto justify-center">
+              <Image src={acebook} width={568} height={200}/>
+              <h3 className="text-lg font-medium pt-8 pb-2">Acebook</h3>
+              <p>created web application....add more later</p>
+            </div>
+            <div className="text-center display-flex shadow-lg p-12 rounded-xl my-8 mr-12 mx-auto justify-center">
+              <Image src={bnb} width={650} height={200}/>
+              <h3 className="text-lg font-medium pt-8 pb-2">MakersBnB</h3>
+              <p>created web application....add more later</p>
+            </div>
           </div>
-          <div>
-            <h3 className="text-4xl py-1 text-center">Projects Made</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 text-center">include text about projects.</p>
-          </div>
+          {/* <div> */}
+            {/* <h3 className="text-4xl py-1 text-center">Projects Made</h3>
+            <p className="text-md py-2 leading-8 text-gray-800 text-center">include text about projects.</p> */}
+          {/* </div>
           <div>
             <div className="text-center shadow-lg p-12 rounded-xl my-8 mr-12 mx-auto justify-center">
-              <Image src={acebook} width={450} height={100}/>
+              <Image src={acebook} width={568} height={200}/>
               <h3 className="text-lg font-medium pt-8 pb-2">Acebook</h3>
               <p>created web application....add more later</p>
             </div>
           </div>
-          <div>
-            <h3 className="text-3xl py-1 text-center">Projects Made</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 ">include text about projects.</p>
-          </div>
+          <div> */}
+            {/* <h3 className="text-3xl py-1 text-center">Projects Made</h3>
+            <p className="text-md py-2 leading-8 text-gray-800 ">include text about projects.</p> */}
+          {/* </div>
           <div>
             <div className="text-center display-flex shadow-lg p-12 rounded-xl my-8 mr-12 mx-auto justify-center">
-              <Image src={bnb} width={450} height={100}/>
+              <Image src={bnb} width={650} height={200}/>
               <h3 className="text-lg font-medium pt-8 pb-2">MakersBnB</h3>
               <p>created web application....add more later</p>
             </div>
+          </div> */}
+        </section>
+
+        <section>
+          <div>
+            <p>final sentences</p>
           </div>
         </section>
       </main>
     </div>
   )
 }
+         
