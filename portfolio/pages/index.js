@@ -48,13 +48,35 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1">Projects Made</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 ">include text about projects.</p>
+            <h3 className="text-3xl py-1 text-center">Projects Made</h3>
+            <p className="text-md py-2 leading-8 text-gray-800 text-center">include text about projects.</p>
           </div>
-          <div>
+          <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-12 rounded-xl my-8 mr-12 mx-auto justify-center">
               <Image src={reelplaces} width={450} height={100}/>
               <h3 className="text-lg font-medium pt-8 pb-2">ReelPlaces</h3>
+              <p>created web application....add more later</p>
+            </div>
+          </div>
+          <div>
+            <h3 className="text-4xl py-1 text-center">Projects Made</h3>
+            <p className="text-md py-2 leading-8 text-gray-800 text-center">include text about projects.</p>
+          </div>
+          <div>
+            <div className="text-center shadow-lg p-12 rounded-xl my-8 mr-12 mx-auto justify-center">
+              <Image src={acebook} width={450} height={100}/>
+              <h3 className="text-lg font-medium pt-8 pb-2">Acebook</h3>
+              <p>created web application....add more later</p>
+            </div>
+          </div>
+          <div>
+            <h3 className="text-3xl py-1 text-center">Projects Made</h3>
+            <p className="text-md py-2 leading-8 text-gray-800 ">include text about projects.</p>
+          </div>
+          <div>
+            <div className="text-center display-flex shadow-lg p-12 rounded-xl my-8 mr-12 mx-auto justify-center">
+              <Image src={bnb} width={450} height={100}/>
+              <h3 className="text-lg font-medium pt-8 pb-2">MakersBnB</h3>
               <p>created web application....add more later</p>
             </div>
           </div>
