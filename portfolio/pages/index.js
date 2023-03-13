@@ -1,6 +1,9 @@
 import Head from 'next/head';
 import {BsFillMoonStarsFill} from "react-icons/bs";
 import {AiFillGithub, AiFillLinkedin} from "react-icons/ai";
+import Image from "next/image";
+import profile from "../public/portrait.png";
+
 
 export default function Home() {
   return (
@@ -15,7 +18,7 @@ export default function Home() {
       <main className="bg-white px-10">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
-          <h1 className='text-xl font-burtons'>developedbyAnisha</h1>
+          <h1 className='text-xl font-burtons'>Developed by Anisha</h1>
           <ul className="flex items-center">
             <li>
               <BsFillMoonStarsFill className='cursor-pointer text-2xl'/>
@@ -25,16 +28,25 @@ export default function Home() {
             </li>
           </ul>
           </nav>
-          <div>
-            <h2>Anisha Hirani</h2>
-            <h3>Developer and designer.</h3>
-            <p>
+          <div className="text-center p-10 py-10">
+            <h2 className="text-5xl py-2 text-teal-600 font-medium">Anisha Hirani</h2>
+            <h3 className="text-2xl py-2">Developer and designer.</h3>
+            <p className="text-md py-5 leading-8 text-gray-800">
               Makers Academy graduate that is job hunting and looking to put their skills to the test.
             </p>
           </div>
-          <div>
+          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
             <AiFillGithub />
             <AiFillLinkedin />
+          </div>
+          <div className="relative w-80 h-80 mx-auto mt-8 justify-center">
+            <Image src={profile} />
+          </div>
+        </section>
+        <section>
+          <div>
+            <h3 className="text-3xl py-1">Projects Made</h3>
+            <p>include text about projects.</p>
           </div>
         </section>
       </main>
