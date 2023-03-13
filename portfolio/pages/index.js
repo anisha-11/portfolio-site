@@ -3,6 +3,9 @@ import {BsFillMoonStarsFill} from "react-icons/bs";
 import {AiFillGithub, AiFillLinkedin} from "react-icons/ai";
 import Image from "next/image";
 import profile from "../public/portrait.png";
+import reelplaces from "../public/reelplaces-ss.png"
+import acebook from "../public/acebook.png"
+import bnb from "../public/makersbnb.png"
 
 
 export default function Home() {
@@ -46,7 +49,14 @@ export default function Home() {
         <section>
           <div>
             <h3 className="text-3xl py-1">Projects Made</h3>
-            <p>include text about projects.</p>
+            <p className="text-md py-2 leading-8 text-gray-800 ">include text about projects.</p>
+          </div>
+          <div>
+            <div className="text-center shadow-lg p-12 rounded-xl my-8 mr-12 mx-auto justify-center">
+              <Image src={reelplaces} width={450} height={100}/>
+              <h3 className="text-lg font-medium pt-8 pb-2">ReelPlaces</h3>
+              <p>created web application....add more later</p>
+            </div>
           </div>
         </section>
       </main>
