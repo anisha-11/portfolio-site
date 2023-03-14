@@ -4,7 +4,7 @@ import {AiFillGithub, AiFillLinkedin} from "react-icons/ai";
 import Image from "next/image";
 import profile from "../public/portrait.png";
 import reelplaces from "../public/reelplaces-ss.png"
-import acebook from "../public/acebook.png"
+import acebook from "../public/acebook-new.png"
 import bnb from "../public/makersbnb.png"
 
 
@@ -49,13 +49,13 @@ export default function Home() {
         
         <section className="flex justify-center align-center text-center flex-wrap:wrap items-stretch">
           <div className='flex flex-col gap-17 content-center max-w-l"'>
-            <div className="text-center shadow-lg p-12 rounded-xl my-8 mr-12 mx-auto justify-center">
+            <div className="text-center shadow-lg p-1.5 rounded-xl my-8 mr-12 mx-auto justify-center">
               <Image src={reelplaces} width={650} height={200}/>
               <h3 className="text-lg font-medium pt-8 pb-2">ReelPlaces</h3>
               <p>created web application....add more later</p>
             </div>
-            <div className="text-center shadow-lg p-12 rounded-xl my-8 mr-12 mx-auto justify-center">
-              <Image src={acebook} width={568} height={200}/>
+            <div className="text-center shadow-lg p-1.5 rounded-xl my-8 mr-12 mx-auto justify-center">
+              <Image src={acebook} width={650} height={200}/>
               <h3 className="text-lg font-medium pt-8 pb-2">Acebook</h3>
               <p>created web application....add more later</p>
             </div>
