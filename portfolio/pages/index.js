@@ -42,17 +42,13 @@ export default function Home() {
             <AiFillGithub />
             <AiFillLinkedin />
           </div>
-          <div className="relative w-80 h-80 mx-auto mt-8 justify-center md:h-96 md:w-96">
-            <Image src={profile} />
+          <div className="relative w-30 h-20 mx-auto mt-8 justify-center md:h-96 md:w-96">
+            <Image className="mx-auto" src={profile} />
           </div> 
         </section>
         
-        <section className="flex min-h-screen justify-center align-center text-center flex-wrap:wrap items-stretch">
-          <div>
-            {/* <h3 className="text-3xl py-1 text-center">Projects Made</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 text-center">include text about projects.</p> */}
-          </div>
-          <div className='h-1 grid grid-cols-3 gap-15 content-center max-w-l'>
+        <section className="flex justify-center align-center text-center flex-wrap:wrap items-stretch">
+          <div className='flex flex-col gap-17 content-center max-w-l"'>
             <div className="text-center shadow-lg p-12 rounded-xl my-8 mr-12 mx-auto justify-center">
               <Image src={reelplaces} width={650} height={200}/>
               <h3 className="text-lg font-medium pt-8 pb-2">ReelPlaces</h3>
@@ -103,3 +99,7 @@ export default function Home() {
   )
 }
          
+        
+        
+        
+        
