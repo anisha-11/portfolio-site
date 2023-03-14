@@ -18,23 +18,23 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-      <main className="bg-white px-10 md:px-20 lg:px-40">
+      <main className="bg-orange-200 px-0 md:px-20 lg:px-0">
         <section className="min-h-screen">
-          <nav className="py-10 mb-12 flex justify-between">
-          <h1 className='text-xl font-burtons'>Developed by Anisha</h1>
+          <nav className="bg-orange-800 py-10 mb-9 flex justify-between">
+          <h1 className='text-xl font-burtons ml-8'>Developed by Anisha</h1>
           <ul className="flex items-center">
             <li>
               <BsFillMoonStarsFill className='cursor-pointer text-2xl'/>
             </li>
             <li>
-              <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="#">Resume</a>
+              <a className="bg-teal-500 text-white px-4 py-2 rounded-md ml-8 mr-8" href="#">Resume</a>
             </li>
           </ul>
           </nav>
           <div className="text-center p-10 py-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium">Anisha Hirani</h2>
             <h3 className="text-2xl py-2 md:text-3xl">Developer and designer.</h3>
-            <p className="text-md py-5 leading-8 text-black-800 md:text-xl max-w-xl mx-auto">
+            <p className="text-md py-5 leading-8 text-black md:text-xl max-w-xl mx-auto">
               Makers Academy graduate that is passionate about working in the tech industry in 
               order to make a positive impact on the future of technology for the society.
               I have a combination of the skills to adapt to any work-style as well as be 
@@ -46,26 +46,30 @@ export default function Home() {
             <AiFillLinkedin />
           </div>
           <div className="relative w-30 h-20 mx-auto mt-8 justify-center md:w-96 md:h-96">
-            <Image className="mx-auto" src={profile} />
+            <Image className="mx-auto" src={profile}/>
           </div> 
         </section>
         
         <section className="flex justify-center align-center text-center flex-wrap:wrap items-stretch">
-          <div className='flex flex-col gap-17 content-center max-w-l"'>
-            <div className="text-center shadow-lg p-1.5 rounded-xl my-8 mr-12 mx-auto justify-center">
+          <div className='flex-col justify-center items-center ml-auto mr-auto max-w-l"'>
+            <div className="text-center shadow-lg p-1.5 rounded-xl my-8 mr-12 ml-12 mx-auto justify-center">
               <Image src={reelplaces} width={650} height={200}/>
               <h3 className="text-lg font-medium pt-8 pb-2">ReelPlaces</h3>
-              <p>created web application....add more later</p>
+              <p className="text-md py-5 leading-5 text-black md:text-xl max-w-xl mx-auto">
+                Makers final project! A web-application that allows you to search for a location 
+                you are currently 
+                at and shows you the top 20 movies filmed in that particular location 
+                with a map that pinpoints that location. </p>
             </div>
-            <div className="text-center shadow-lg p-1.5 rounded-xl my-8 mr-12 mx-auto justify-center">
-              <Image src={acebook} width={650} height={200}/>
+            <div className="text-center shadow-lg p-1.5 rounded-xl my-8 mr-12 ml-12 mx-auto justify-center">
+              <Image src={acebook} width={650} height={200} />
               <h3 className="text-lg font-medium pt-8 pb-2">Acebook</h3>
-              <p>created web application....add more later</p>
+              <p className="text-md py-5 leading-8 text-black md:text-xl max-w-xl mx-auto">A clone of Facebook using the MERN Stack and allowing users to comment, upload pictures and have fun on this social media platform.</p>
             </div>
-            <div className="text-center display-flex shadow-lg p-1.5 rounded-xl my-8 mr-12 mx-auto justify-center">
-              <Image src={bnb} width={650} height={200}/>
+            <div className="text-center display-flex shadow-lg p-1.5 rounded-xl my-8 mr-12 ml-12 mx-auto justify-center">
+              <Image src={bnb} width={650} height={200} />
               <h3 className="text-lg font-medium pt-8 pb-2">MakersBnB</h3>
-              <p>created web application....add more later</p>
+              <p className="text-md py-5 leading-8 text-black md:text-xl max-w-xl mx-auto">First ever group project with Makers which was a clone of AirBnB using Ruby, Sinatra, databases and much more.</p>
             </div>
           </div>
           {/* <div> */}
@@ -91,16 +95,10 @@ export default function Home() {
             </div>
           </div> */}
         </section>
-
-        <section>
-          <div>
-            <p>final sentences</p>
-          </div>
-        </section>
       </main>
     </div>
-  )
-}
+  );
+};
          
         
         
