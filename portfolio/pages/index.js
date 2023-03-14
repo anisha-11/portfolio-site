@@ -6,6 +6,7 @@ import profile from "../public/portrait.png";
 import reelplaces from "../public/reelplaces-ss.png"
 import acebook from "../public/acebook-new.png"
 import bnb from "../public/makersbnb.png"
+import { SiCodewars } from "react-icons/si";
 
 
 export default function Home() {
@@ -18,13 +19,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-      <main className="bg-orange-200 px-0 md:px-20 lg:px-0">
+      <main className="bg-orange-100 px-0 md:px-20 lg:px-0">
         <section className="min-h-screen">
-          <nav className="bg-orange-800 py-10 mb-9 flex justify-between">
-          <h1 className='text-xl font-burtons ml-8'>Developed by Anisha</h1>
+          <nav className="bg-gray-700 py-10 mb-9 flex justify-between">
+          <h1 className='text-xl text-teal-500 font-bold font-burtons ml-8'>Developed by Anisha</h1>
           <ul className="flex items-center">
             <li>
-              <BsFillMoonStarsFill className='cursor-pointer text-2xl'/>
+              <BsFillMoonStarsFill className='ml-8 cursor-pointer text-2xl'/>
             </li>
             <li>
               <a className="bg-teal-500 text-white px-4 py-2 rounded-md ml-8 mr-8" href="#">Resume</a>
@@ -41,35 +42,36 @@ export default function Home() {
               willing to learn and code new projects. 
             </p>
           </div>
-          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 md:text-6xl">
+          <div className="text-5xl flex justify-center gap-16 py-3 text-teal-600 md:text-6xl">
             <AiFillGithub />
+            <SiCodewars />
             <AiFillLinkedin />
           </div>
           <div className="relative w-30 h-20 mx-auto mt-8 justify-center md:w-96 md:h-96">
-            <Image className="mx-auto" src={profile}/>
+            <Image className="rounded-xl shadow-lg shadow-gray-700 mx-auto" src={profile}/>
           </div> 
         </section>
         
         <section className="flex justify-center align-center text-center flex-wrap:wrap items-stretch">
           <div className='flex-col justify-center items-center ml-auto mr-auto max-w-l"'>
-            <div className="text-center shadow-lg p-1.5 rounded-xl my-8 mr-12 ml-12 mx-auto justify-center">
-              <Image src={reelplaces} width={650} height={200}/>
-              <h3 className="text-lg font-medium pt-8 pb-2">ReelPlaces</h3>
-              <p className="text-md py-5 leading-5 text-black md:text-xl max-w-xl mx-auto">
+            <div className="text-center shadow-lg bg-gray-700 shadow-gray-700 p-1.5 rounded-xl my-8 mr-12 ml-12 mt-0 mx-auto justify-center">
+              <Image className="rounded-xl" src={reelplaces} width={650} height={200}/>
+              <h3 className="text-4xl text-teal-500 font-extrabold pt-8 pb-2">REELPLACES</h3>
+              <p className="text-md py-5 leading-5 text-white md:text-xl max-w-xl mx-auto">
                 Makers final project! A web-application that allows you to search for a location 
                 you are currently 
                 at and shows you the top 20 movies filmed in that particular location 
                 with a map that pinpoints that location. </p>
             </div>
-            <div className="text-center shadow-lg p-1.5 rounded-xl my-8 mr-12 ml-12 mx-auto justify-center">
-              <Image src={acebook} width={650} height={200} />
-              <h3 className="text-lg font-medium pt-8 pb-2">Acebook</h3>
-              <p className="text-md py-5 leading-8 text-black md:text-xl max-w-xl mx-auto">A clone of Facebook using the MERN Stack and allowing users to comment, upload pictures and have fun on this social media platform.</p>
+            <div className="text-center bg-gray-700 shadow-lg shadow-gray-700 p-1.5 rounded-xl my-8 mr-12 ml-12 mx-auto justify-center">
+              <Image className="rounded-xl" src={acebook} width={650} height={200} />
+              <h3 className="text-4xl text-teal-500 font-extrabold pt-8 pb-2">ACEBOOK</h3>
+              <p className="text-md py-5 leading-8 text-white md:text-xl max-w-xl mx-auto">A clone of Facebook using the MERN Stack and allowing users to comment, upload pictures and have fun on this social media platform.</p>
             </div>
-            <div className="text-center display-flex shadow-lg p-1.5 rounded-xl my-8 mr-12 ml-12 mx-auto justify-center">
-              <Image src={bnb} width={650} height={200} />
-              <h3 className="text-lg font-medium pt-8 pb-2">MakersBnB</h3>
-              <p className="text-md py-5 leading-8 text-black md:text-xl max-w-xl mx-auto">First ever group project with Makers which was a clone of AirBnB using Ruby, Sinatra, databases and much more.</p>
+            <div className="text-center display-flex shadow-lg bg-gray-700 shadow-gray-700 p-1.5 rounded-xl my-8 mr-12 ml-12 mx-auto justify-center">
+              <Image className="rounded-xl" src={bnb} width={650} height={200} />
+              <h3 className="text-4xl  text-teal-500 font-extrabold pt-8 pb-2">MAKERS-BNB</h3>
+              <p className="text-md py-5 leading-8 text-white md:text-xl max-w-xl mx-auto">First ever group project with Makers which was a clone of AirBnB using Ruby, Sinatra, databases and much more.</p>
             </div>
           </div>
           {/* <div> */}
