@@ -34,15 +34,18 @@ export default function Home() {
           <div className="text-center p-10 py-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium">Anisha Hirani</h2>
             <h3 className="text-2xl py-2 md:text-3xl">Developer and designer.</h3>
-            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto">
-              Makers Academy graduate that is job hunting and looking to put their skills to the test.
+            <p className="text-md py-5 leading-8 text-black-800 md:text-xl max-w-xl mx-auto">
+              Makers Academy graduate that is passionate about working in the tech industry in 
+              order to make a positive impact on the future of technology for the society.
+              I have a combination of the skills to adapt to any work-style as well as be 
+              willing to learn and code new projects. 
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 md:text-6xl">
             <AiFillGithub />
             <AiFillLinkedin />
           </div>
-          <div className="relative w-30 h-20 mx-auto mt-8 justify-center md:h-96 md:w-96">
+          <div className="relative w-30 h-20 mx-auto mt-8 justify-center md:w-96 md:h-96">
             <Image className="mx-auto" src={profile} />
           </div> 
         </section>
@@ -59,7 +62,7 @@ export default function Home() {
               <h3 className="text-lg font-medium pt-8 pb-2">Acebook</h3>
               <p>created web application....add more later</p>
             </div>
-            <div className="text-center display-flex shadow-lg p-12 rounded-xl my-8 mr-12 mx-auto justify-center">
+            <div className="text-center display-flex shadow-lg p-1.5 rounded-xl my-8 mr-12 mx-auto justify-center">
               <Image src={bnb} width={650} height={200}/>
               <h3 className="text-lg font-medium pt-8 pb-2">MakersBnB</h3>
               <p>created web application....add more later</p>
