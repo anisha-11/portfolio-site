@@ -3,13 +3,15 @@ import {BsFillMoonStarsFill} from "react-icons/bs";
 import {AiFillGithub, AiFillLinkedin} from "react-icons/ai";
 import Image from "next/image";
 import profile from "../public/portrait.png";
-import reelplaces from "../public/reelplaces-ss.png"
-import acebook from "../public/acebook-new.png"
-import bnb from "../public/makersbnb.png"
+import reelplaces from "../public/reelplaces-ss.png";
+import acebook from "../public/acebook-new.png";
+import bnb from "../public/makersbnb.png";
 import { SiCodewars } from "react-icons/si";
+// import { useState } from "react";
 
 
 export default function Home() {
+  // const [darkMode, setDarkMode] = useState(false);
   return (
     <div>
       <Head>
@@ -21,21 +23,21 @@ export default function Home() {
       
       <main className="bg-orange-100 px-0 md:px-20 lg:px-0">
         <section className="min-h-screen">
-          <nav className="bg-gray-700 py-10 mb-9 flex justify-between">
-          <h1 className='text-xl text-teal-500 font-bold font-burtons ml-8'>Developed by Anisha</h1>
+          <navbar className="fixed w-full z-20 top-0 left-0 bottom-50 bg-gray-700 py-10 mb-9 flex justify-between">
+          <h1 className='text-xl text-teal-500 font-bold font-burtons ml-8 tracking-wider'>Developed by Anisha</h1>
           <ul className="flex items-center">
             <li>
               <BsFillMoonStarsFill className='ml-8 cursor-pointer text-2xl'/>
             </li>
             <li>
-              <a className="bg-teal-500 text-white px-4 py-2 rounded-md ml-8 mr-8" href="#">Resume</a>
+              <a className="bg-teal-600 text-white px-4 py-2 rounded-md ml-8 mr-8" href="#">Resume</a>
             </li>
           </ul>
-          </nav>
+          </navbar>
           <div className="text-center p-10 py-10">
-            <h2 className="text-5xl py-2 text-teal-600 font-medium">Anisha Hirani</h2>
+            <h2 className="h-20 text-5xl py-20 mt-0 text-teal-600 font-medium">Anisha Hirani</h2>
             <h3 className="text-2xl py-2 md:text-3xl">Developer and designer.</h3>
-            <p className="text-md py-5 leading-8 text-black md:text-xl max-w-xl mx-auto">
+            <p className="text-md py-5 leading-8 text-black md:text-xl max-w-lg mx-auto">
               Makers Academy graduate that is passionate about working in the tech industry in 
               order to make a positive impact on the future of technology for the society.
               I have a combination of the skills to adapt to any work-style as well as be 
