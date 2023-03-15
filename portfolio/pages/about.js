@@ -32,9 +32,12 @@ export default function About() {
             <li>
               <a className="bg-teal-600 text-white dark:bg-orange-200 dark:text-black px-4 py-2 rounded-md ml-8 mr-8" href="/Anisha Hirani - CV.pdf" target="_blank">Resume</a>
             </li>
-            {/* <li> 
-              <a className="bg-teal-600 text-white dark:bg-orange-200 dark:text-black px-4 py-2 rounded-md ml-0 mr-4" href="/about" target="_blank">About Me</a>
-            </li> */}
+            <li> 
+              <a className="bg-teal-600 text-white dark:bg-orange-200 dark:text-black px-4 py-2 rounded-md ml-0 mr-4" href="/about" target>About Me</a>
+            </li>
+            <li> 
+              <a className="bg-teal-600 text-white dark:bg-orange-200 dark:text-black px-4 py-2 rounded-md ml-0 mr-4" href="/" target>Home</a>
+            </li>
           </ul>
         </navbar>
          <div className="text-center p-10 py-10">
