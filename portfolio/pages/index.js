@@ -29,16 +29,15 @@ export default function Home() {
           <navbar className="fixed w-full z-20 top-0 left-0 bottom-50 bg-gray-700 py-10 mb-9 flex justify-between dark:bg-teal-600">
           <h1 className='text-xl text-teal-500 dark:text-orange-200 font-bold font-burtons ml-8 tracking-wider'>Developed by Anisha Hirani</h1>
           <ul className="flex items-center">
-            {/* <Link href='/'> */}
             <li>
               <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='ml-8 cursor-pointer text-2xl'/>
             </li>
-            {/* </Link> */}
-            {/* <Link href='/'> */}
             <li>
               <a className="bg-teal-600 text-white dark:bg-orange-200 dark:text-black px-4 py-2 rounded-md ml-8 mr-8" href="/Anisha Hirani - CV.pdf" target="_blank">Resume</a>
             </li>
-            {/* </Link> */}
+            <li> 
+              <a className="bg-teal-600 text-white dark:bg-orange-200 dark:text-black px-4 py-2 rounded-md ml-0 mr-4" href="/about-me" target>About Me</a>
+            </li>
           </ul>
           </navbar>
           <div className="text-center p-10 py-10">
