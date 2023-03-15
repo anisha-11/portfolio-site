@@ -8,7 +8,6 @@ import acebook from "../public/acebook-new.png";
 import bnb from "../public/makersbnb.png";
 import { SiCodewars } from "react-icons/si";
 import { useState } from "react";
-import Link from "next/link";
 
 
 export default function Home() {
@@ -48,8 +47,6 @@ export default function Home() {
             <p className="text-md py-5 leading-8 text-black dark:text-white md:text-xl max-w-lg mx-auto">
               Makers Academy graduate that is passionate about working in the tech industry in 
               order to make a positive impact on the future of technology for the society.
-              I have a combination of the skills to adapt to any work-style as well as be 
-              willing to learn and code new projects. 
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-teal-600 dark:text-orange-200 md:text-6xl">
