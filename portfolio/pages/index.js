@@ -28,7 +28,7 @@ export default function Home() {
       <main className="bg-orange-100 px-0 md:px-20 lg:px-0 dark:bg-gray-700">
         <section className="min-h-screen">
           <navbar className="fixed w-full z-20 top-0 left-0 bottom-50 bg-gray-700 py-10 mb-9 flex justify-between dark:bg-teal-600">
-          <h1 className='text-xl text-teal-500 dark:text-orange-200 font-bold font-burtons ml-8 tracking-wider'>Developed by Anisha</h1>
+          <h1 className='text-xl text-teal-500 dark:text-orange-200 font-bold font-burtons ml-8 tracking-wider'>Developed by Anisha Hirani</h1>
           <ul className="flex items-center">
             {/* <Link href='/'> */}
             <li>
