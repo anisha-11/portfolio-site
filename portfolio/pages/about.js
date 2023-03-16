@@ -66,17 +66,15 @@ export default function About() {
                 <a href={linkedIn} target="_blank"><AiFillLinkedin/></a>
               </div>
             </div> 
-            <div className='left-10'>
-              <h2 className='shrink-0 mx-auto text-5xl pl-2 px-10 p-20 py-20 mr-18 text-teal-600 dark:text-orange-200 font-medium'>About</h2>
+            <div className='w-90'>
+              <h2 className='text-5xl pl-2 px-10 p-20 py-20 text-teal-600 dark:text-orange-200 font-medium'>ABOUT</h2>
             </div>
             <div>
-              <div className='text-5xl w-20 left-10 p-20 py-7 text-teal-600 dark:text-orange-200 md:text-6xl'>
-                <h2 className='shrink-0 mx-auto text-5xl pl-2 px-10 p-20 py-20 mr-18 text-teal-600 dark:text-orange-200 font-medium'>About</h2>
-              </div>
-              <div className='flex flex-row px-44 py-10 p-32'>
-                <h3 className='flex h-screen flex-row justify-items-end w-80 text-center p-1 dark:text-white md:text-2xl'>
-                  Makers Academy graduate that is passionate about working in the tech industry in 
-                order to make a positive impact on the future of technology for the society..</h3>
+              <div className='flex flex-row px-44 pl-2 mr-18 py-72'>
+                <h3 className='text-center flex h-screen flex-row justify-items-end w-fit p-1 dark:text-white md:text-2xl'>
+                  I am a Full Stack Junior Software Developer and Makers Academy graduate. 
+                  Looking to have a positive impact on society through my tech skills.
+                </h3>
               </div>
             </div>
           </div>
