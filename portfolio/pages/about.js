@@ -60,13 +60,15 @@ export default function About() {
           <div className='flex flex-row justify-right text-center p-10 py-10'>
             <div className='relative w-30 h-20 mt-60 ml-40 justify-center md:w-96 md:h-96'> 
               <Image className="rounded-xl shadow-lg shadow-gray-700  dark:shadow-orange-200" src={profile}/>
-              <h2 className='w-80 text-5xl p-20 py-20 mr-18 text-teal-600 dark:text-orange-200 font-medium'>Anisha Hirani</h2>
-            </div>
-            <div>
-              <div className='text-5xl flex gap-16 h-60 w-90 p-20 py-15 text-teal-600 dark:text-orange-200 md:text-6xl'>
+              <div className='text-5xl flex gap-14 h-60 w-90 px-12 p-20 py-10 text-teal-600 dark:text-orange-200 md:text-6xl'>
                 <a href={gitHub} target="_blank"><AiFillGithub /></a>
                 <a href={codeWars} target="_blank"><SiCodewars /></a>
                 <a href={linkedIn} target="_blank"><AiFillLinkedin/></a>
+              </div>
+            </div>
+            <div>
+              <div className='text-5xl flex gap-16 h-60 w-90 p-20 py-15 text-teal-600 dark:text-orange-200 md:text-6xl'>
+                <h2 className='w-80 text-5xl p-20 py-20 mr-18 text-teal-600 dark:text-orange-200 font-medium'>Anisha Hirani</h2>
               </div>
               <div className='flex flex-row px-44 py-10 p-32'>
                 <h3 className='flex h-screen flex-row justify-items-end w-80 text-center p-1 dark:text-white md:text-2xl'>Makers Academy graduate that is passionate about working in the tech industry in 
