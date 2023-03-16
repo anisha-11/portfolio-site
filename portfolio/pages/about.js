@@ -61,10 +61,10 @@ export default function About() {
             <div className='relative w-30 h-20 mt-60 ml-40 justify-center md:w-96 md:h-96'> 
               <Image className="rounded-xl shadow-lg shadow-gray-700  dark:shadow-orange-200" src={profile}/>
               <div className='text-5xl flex gap-14 h-60 w-90 px-12 p-20 py-10 text-teal-600 dark:text-orange-200 md:text-6xl'>
-                <a href={gitHub} target="_blank"><AiFillGithub /></a>
-                <a href={codeWars} target="_blank"><SiCodewars /></a>
-                <a href={linkedIn} target="_blank"><AiFillLinkedin/></a>
-              </div>
+                <a className='hover:text-gray-700' href={gitHub} target="_blank"><AiFillGithub /></a>
+                <a className='hover:text-gray-700' href={codeWars} target="_blank"><SiCodewars /></a>
+                <a className='hover:text-gray-700' href={linkedIn} target="_blank"><AiFillLinkedin/></a>
+                </div>
             </div> 
             <div className='w-90'>
               <h2 className='text-5xl pl-2 px-10 p-20 py-20 text-teal-600 dark:text-orange-200 font-medium'>ABOUT</h2>
