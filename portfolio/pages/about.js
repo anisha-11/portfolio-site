@@ -21,9 +21,9 @@ export default function About() {
       <link rel="icon" href="/favicon.ico" />
     </Head>
     
-    <main className="bg-orange-100 px-0 md:px-20 lg:px-0 dark:bg-gray-700">
+    <main className="bg-orange-100 px-0 md:px-20 lg:px-0 dark:bg-teal-600">
       <section className="min-w-screen">
-        <navbar className="fixed w-full z-20 top-0 left-0 bottom-50 bg-gray-700 py-10 mb-9 flex justify-between dark:bg-teal-600">
+        <navbar className="fixed w-full z-20 top-0 left-0 bottom-50 bg-gray-700 py-10 mb-9 flex justify-between dark:bg-gray-700">
           <h1 className='text-xl text-teal-500 dark:text-orange-200 font-bold font-burtons ml-8 tracking-wider'>Developed by Anisha Hirani</h1>
           <ul className="flex items-center">
             <li>
@@ -33,10 +33,13 @@ export default function About() {
               <a className="bg-teal-600 text-white dark:bg-orange-200 dark:text-black px-4 py-2 rounded-md ml-8 mr-8" href="/Anisha Hirani - CV.pdf" target="_blank">Resume</a>
             </li>
             <li> 
-              <a className="bg-teal-600 text-white dark:bg-orange-200 dark:text-black px-4 py-2 rounded-md ml-0 mr-4" href="/about" target>About Me</a>
+              <a className="bg-teal-600 text-white dark:bg-orange-200 dark:text-black px-4 py-2 rounded-md ml-0 mr-4" href="/about" target>About</a>
             </li>
             <li> 
               <a className="bg-teal-600 text-white dark:bg-orange-200 dark:text-black px-4 py-2 rounded-md ml-0 mr-4" href="/" target>Home</a>
+            </li>
+            <li> 
+              <a className="bg-teal-600 text-white dark:bg-orange-200 dark:text-black px-4 py-2 rounded-md ml-0 mr-4" href="/projects" target>Projects</a>
             </li>
           </ul>
         </navbar>
@@ -59,11 +62,11 @@ export default function About() {
         <div className='min-h-screen h-150 p-10 gap-50'>
           <div className='flex flex-row justify-right text-center p-10 py-10'>
             <div className='relative w-30 h-20 mt-60 ml-40 justify-center md:w-96 md:h-96'> 
-              <Image className="rounded-xl shadow-lg shadow-gray-700  dark:shadow-orange-200" src={profile}/>
+              <Image className="rounded-xl shadow-lg shadow-gray-700  dark:shadow-gray-700" src={profile}/>
               <div className='text-5xl flex gap-14 h-60 w-90 px-12 p-20 py-10 text-teal-600 dark:text-orange-200 md:text-6xl'>
-                <a className='hover:text-gray-700 dark:hover:text-teal-600' href={gitHub} target="_blank"><AiFillGithub /></a>
-                <a className='hover:text-gray-700 dark:hover:text-teal-600' href={codeWars} target="_blank"><SiCodewars /></a>
-                <a className='hover:text-gray-700 dark:hover:text-teal-600' href={linkedIn} target="_blank"><AiFillLinkedin/></a>
+                <a className='hover:text-gray-700 dark:hover:text-gray-700' href={gitHub} target="_blank"><AiFillGithub /></a>
+                <a className='hover:text-gray-700 dark:hover:text-gray-700' href={codeWars} target="_blank"><SiCodewars /></a>
+                <a className='hover:text-gray-700 dark:hover:text-gray-700' href={linkedIn} target="_blank"><AiFillLinkedin/></a>
                 </div>
             </div> 
             <div className='w-90'>
