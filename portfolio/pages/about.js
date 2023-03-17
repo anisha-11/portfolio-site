@@ -30,16 +30,16 @@ export default function About() {
               <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='ml-8 cursor-pointer text-2xl'/>
             </li>
             <li>
-              <a className="bg-teal-600 text-white dark:bg-orange-200 dark:text-black px-4 py-2 rounded-md ml-8 mr-8" href="/Anisha Hirani - CV.pdf" target="_blank">Resume</a>
+              <a className="bg-teal-600 hover:bg-teal-700 text-white dark:bg-orange-200 dark:hover:bg-orange-300 dark:text-black px-4 py-2 rounded-md ml-8 mr-8" href="/Anisha Hirani - CV.pdf" target="_blank">Resume</a>
             </li>
             <li> 
-              <a className="bg-teal-600 text-white dark:bg-orange-200 dark:text-black px-4 py-2 rounded-md ml-0 mr-4" href="/about" target>About</a>
+              <a className="bg-teal-600 hover:bg-teal-700 text-white dark:bg-orange-200 dark:hover:bg-orange-300 dark:text-black px-4 py-2 rounded-md ml-0 mr-4" href="/about" target>About</a>
             </li>
             <li> 
-              <a className="bg-teal-600 text-white dark:bg-orange-200 dark:text-black px-4 py-2 rounded-md ml-0 mr-4" href="/" target>Home</a>
+              <a className="bg-teal-600 hover:bg-teal-700 text-white dark:bg-orange-200 dark:hover:bg-orange-300 dark:text-black px-4 py-2 rounded-md ml-0 mr-4" href="/" target>Home</a>
             </li>
             <li> 
-              <a className="bg-teal-600 text-white dark:bg-orange-200 dark:text-black px-4 py-2 rounded-md ml-0 mr-4" href="/projects" target>Projects</a>
+              <a className="bg-teal-600 hover:bg-teal-700 text-white dark:bg-orange-200 dark:hover:bg-orange-300 dark:text-black px-4 py-2 rounded-md ml-0 mr-4" href="/projects" target>Projects</a>
             </li>
           </ul>
         </navbar>
