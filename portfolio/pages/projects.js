@@ -5,9 +5,12 @@ import acebook from "../public/acebook-new.png";
 import bnb from "../public/makersbnb.png";
 import {BsFillMoonStarsFill} from "react-icons/bs";
 import {AiFillGithub} from "react-icons/ai";
+import { HiOutlineLink } from "react-icons/hi";
 import { useState } from "react";
 
 export default function Projects() {
+  const reelplacesRepo = "https://github.com/anisha-11/ReelPlaces";
+  const reelplacesLink = "https://reelplaces.herokuapp.com/"
   const [darkMode, setDarkMode] = useState(false);
   return (
     <div className={darkMode ? 'dark' : ""}>
@@ -54,7 +57,10 @@ export default function Projects() {
                   you are currently 
                   at and pinpoints the top 20 movies filming locations on a map.
                </p>
-               <a href={gitHub} target="_blank"><AiFillGithub /></a>
+                <div className="text-5xl flex justify-center gap-16 py-3 text-teal-600 dark:text-orange-200 md:text-6xl">
+                  <a className='hover:text-orange-100' href={reelplacesRepo} target="_blank"><AiFillGithub /></a>
+                  <a className='hover:text-orange-100' href={reelplacesLink} target="_blank"><HiOutlineLink /></a>
+                </div>
               </div>
               <div className="text-center bg-gray-700 dark:bg-teal-600 shadow-lg shadow-gray-700 dark:shadow-teal-600 p-1.5 rounded-xl my-8 mr-12 ml-12 mx-auto justify-center">
                 <Image className="border-solid border-2 dark:border-black rounded-xl" src={acebook} width={650} height={200} />
