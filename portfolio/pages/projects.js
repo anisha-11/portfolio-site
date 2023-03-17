@@ -39,8 +39,13 @@ export default function Projects() {
             </ul>
         </navbar>
         <section className="flex flex-wrap:wrap justify-center align-center text-center flex-wrap:wrap items-stretch">
+          <div className="h-20 text-5xl py-20 mt-20 text-teal-600 dark:text-orange-200 font-bold">
+          <h1>PROJECTS</h1>
+          </div>
+        </section>
+        <section className="flex flex-wrap:wrap justify-center align-center text-center flex-wrap:wrap items-stretch">
             <div className='grid grid-cols-3 justify-center items-center ml-auto mr-auto max-w-l"'>
-              <div className="text-center shadow-lg dark:bg-teal-600 bg-gray-700 shadow-gray-700 dark:shadow-teal-600 p-1.5 rounded-xl my-8 mr-12 ml-12 mt-64 mx-auto justify-center">
+              <div className="text-center shadow-lg dark:bg-teal-600 bg-gray-700 shadow-gray-700 dark:shadow-teal-600 p-1.5 rounded-xl my-8 mr-12 ml-12 mx-auto justify-center">
                 <Image className="border-solid border-2 dark:border-black rounded-xl" src={reelplaces} width={650} height={200}/>
                 <h3 className="text-4xl text-teal-500 dark:text-orange-200 font-extrabold pt-8 pb-2">REELPLACES</h3>
                 <p className="text-md py-5 leading-5 text-white dark:text-white md:text-xl max-w-xl mx-auto">
@@ -49,12 +54,12 @@ export default function Projects() {
                   at and pinpoints the top 20 movies filming locations on a map.
                </p>
               </div>
-              <div className="text-center bg-gray-700 dark:bg-teal-600 shadow-lg shadow-gray-700 dark:shadow-teal-600 p-1.5 rounded-xl my-8 mr-12 ml-12 mt-64 mx-auto justify-center">
+              <div className="text-center bg-gray-700 dark:bg-teal-600 shadow-lg shadow-gray-700 dark:shadow-teal-600 p-1.5 rounded-xl my-8 mr-12 ml-12 mx-auto justify-center">
                 <Image className="border-solid border-2 dark:border-black rounded-xl" src={acebook} width={650} height={200} />
                 <h3 className="text-4xl text-teal-500 dark:text-orange-200 font-extrabold pt-8 pb-2">ACEBOOK</h3>
                 <p className="text-md py-5 leading-8 text-white dark:text-white md:text-xl max-w-xl mx-auto">A clone of Facebook using the MERN Stack and allowing users to comment, upload pictures and have fun on this social media platform.</p>
               </div>
-              <div className="text-center display-flex dark:bg-teal-600 shadow-lg bg-gray-700 shadow-gray-700 dark:shadow-teal-600 p-1.5 rounded-xl my-8 mr-12 ml-12 mt-64 mx-auto justify-center">
+              <div className="text-center display-flex dark:bg-teal-600 shadow-lg bg-gray-700 shadow-gray-700 dark:shadow-teal-600 p-1.5 rounded-xl my-8 mr-12 ml-12 mx-auto justify-center">
                 <Image className="border-solid border-2 dark:border-black rounded-xl" src={bnb} width={650} height={200} />
                 <h3 className="text-4xl  text-teal-500 dark:text-orange-200 font-extrabold pt-8 pb-2">MAKERS-BNB</h3>
                 <p className="text-md py-5 leading-8 text-white dark:text-white md:text-xl max-w-xl mx-auto">First group 
