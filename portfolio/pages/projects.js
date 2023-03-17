@@ -11,6 +11,8 @@ import { useState } from "react";
 export default function Projects() {
   const reelplacesRepo = "https://github.com/anisha-11/ReelPlaces";
   const reelplacesLink = "https://reelplaces.herokuapp.com/"
+  const acebookRepo = "https://github.com/anisha-11/acebook";
+  const bnbRepo = "https://github.com/anisha-11/MakersBnB";
   const [darkMode, setDarkMode] = useState(false);
   return (
     <div className={darkMode ? 'dark' : ""}>
@@ -51,11 +53,10 @@ export default function Projects() {
             <div className='grid grid-cols-3 justify-center items-center ml-auto mr-auto max-w-l"'>
               <div className="text-center shadow-lg dark:bg-teal-600 bg-gray-700 shadow-gray-700 dark:shadow-teal-600 p-1.5 rounded-xl my-8 mr-12 ml-12 mx-auto justify-center">
                 <Image className="border-solid border-2 dark:border-black rounded-xl" src={reelplaces} width={650} height={200}/>
-                <h3 className="text-4xl text-teal-500 dark:text-orange-200 font-extrabold pt-8 pb-2">REELPLACES</h3>
-                <p className="text-md py-5 leading-5 text-white dark:text-white md:text-xl max-w-xl mx-auto">
-                  Makers final project! A web-application that allows you to search for a location 
-                  you are currently 
-                  at and pinpoints the top 20 movies filming locations on a map.
+                <h3 className="text-3xl text-teal-500 dark:text-orange-200 font-extrabold pt-8 pb-2">REELPLACES</h3>
+                <p className="text-md py-5 leading-8 text-white dark:text-white md:text-md max-w-xl mx-auto">
+                  Web-app that allows users to input current location and find the 
+                  pin pointed nearby filming location of the top 20 movies.
                </p>
                 <div className="text-5xl flex justify-center gap-16 py-3 text-teal-600 dark:text-orange-200 md:text-6xl">
                   <a className='hover:text-orange-100' href={reelplacesRepo} target="_blank"><AiFillGithub /></a>
@@ -64,17 +65,23 @@ export default function Projects() {
               </div>
               <div className="text-center bg-gray-700 dark:bg-teal-600 shadow-lg shadow-gray-700 dark:shadow-teal-600 p-1.5 rounded-xl my-8 mr-12 ml-12 mx-auto justify-center">
                 <Image className="border-solid border-2 dark:border-black rounded-xl" src={acebook} width={650} height={200} />
-                <h3 className="text-4xl text-teal-500 dark:text-orange-200 font-extrabold pt-8 pb-2">ACEBOOK</h3>
-                <p className="text-md py-5 leading-8 text-white dark:text-white md:text-xl max-w-xl mx-auto">A clone of Facebook using the MERN Stack and allowing users to comment, upload pictures and have fun on this social media platform.</p>
-              </div>
+                <h3 className="text-3xl text-teal-500 dark:text-orange-200 font-extrabold pt-8 pb-2">ACEBOOK</h3>
+                <p className="text-md py-5 leading-8 text-white dark:text-white md:text-md max-w-xl mx-auto">Similar to Facebook using the MERN Stack and allowing users to comment, upload pictures and have fun on this social media platform.</p>
+                <div className="text-5xl flex justify-center gap-16 py-3 text-teal-600 dark:text-orange-200 md:text-6xl">
+                  <a className='hover:text-orange-100' href={acebookRepo} target="_blank"><AiFillGithub /></a>
+                </div>
+                </div>
               <div className="text-center display-flex dark:bg-teal-600 shadow-lg bg-gray-700 shadow-gray-700 dark:shadow-teal-600 p-1.5 rounded-xl my-8 mr-12 ml-12 mx-auto justify-center">
                 <Image className="border-solid border-2 dark:border-black rounded-xl" src={bnb} width={650} height={200} />
-                <h3 className="text-4xl  text-teal-500 dark:text-orange-200 font-extrabold pt-8 pb-2">MAKERS-BNB</h3>
-                <p className="text-md py-5 leading-8 text-white dark:text-white md:text-xl max-w-xl mx-auto">First group 
+                <h3 className="text-3xl  text-teal-500 dark:text-orange-200 font-extrabold pt-8 pb-2">MAKERS-BNB</h3>
+                <p className="text-md py-5 leading-8 text-white dark:text-white md:text-md max-w-md mx-auto">First group 
                 project with Makers which was similar to AirBnB using 
-                Ruby, Sinatra, databases with SQL queries. Allows you to book spaces and rent 
+                Ruby, Sinatra and databases. Allows you to book spaces and rent 
                 out a space.
                 </p>
+                <div className="text-5xl flex justify-center gap-16 py-3 text-teal-600 dark:text-orange-200 md:text-6xl">
+                  <a className='hover:text-orange-100' href={bnbRepo} target="_blank"><AiFillGithub /></a>
+                </div>
               </div>
             </div>
           </section>
