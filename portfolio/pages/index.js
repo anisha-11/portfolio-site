@@ -66,19 +66,21 @@ export default function Home() {
           </div>
           <div className="flex justify-between ml-18 text-center text-5xl py-3 text-teal-600 dark:text-orange-200 md:text-6xl">
             <div className="flex gap-5 justify-between ml-auto mr-auto max-w-l">
-            <DiJsBadge/>
-            <DiReact/>
-            <DiRuby/>
-            <DiHtml5/>
-            <DiCss3Full/>
-            <SiTailwindcss/>
-            <TbSql/>
-            <SiCypress/>
-            <SiJest/>
-            <DiMongodb/>
-            <DiStreamline/>
-            <DiTrello/>
-            <DiVisualstudio/>
+            <div className='tooltip'><DiJsBadge/></div>
+            <div class="relative before:z-10 before:absolute before:left-1/2 before:-top-3 before:w-max before:max-w-xs before:-translate-x-1/2 before:-translate-y-full before:rounded-lg before:bg-gray-700 before:px-2 before:py-1.5 before:text-white before:invisible before:content-[attr(data-tip)] after:z-10 after:absolute after:left-1/2 after:-bottom-3 after:h-0 after:w-0 after:-translate-x-1/2 after:border-8 after:border-t-gray-700 after:border-l-transparent after:border-b-transparent after:border-r-transparent after:invisible hover:before:visible hover:after:visible" data-tip="React">
+              <DiReact/>
+            </div>
+            <div class="relative before:z-10 before:absolute before:left-1/2 before:-top-3 before:w-max before:max-w-xs before:-translate-x-1/2 before:-translate-y-full before:rounded-lg before:bg-gray-700 before:px-2 before:py-1.5 before:text-white before:invisible before:content-[attr(data-tip)] after:z-10 after:absolute after:left-1/2 after:-bottom-3 after:h-0 after:w-0 after:-translate-x-1/2 after:border-8 after:border-t-gray-700 after:border-l-transparent after:border-b-transparent after:border-r-transparent after:invisible hover:before:visible hover:after:visible" data-tip="Ruby"><DiRuby/></div>
+            <div><DiHtml5/></div>
+            <div><DiCss3Full/></div>
+            <div><SiTailwindcss/></div>
+            <div><TbSql/></div>
+            <div><SiCypress/></div>
+            <div><SiJest/></div>
+            <div><DiMongodb/></div>
+            <div><DiStreamline/></div>
+            <div><DiTrello/></div>
+            <div><DiVisualstudio/></div>
             </div>
           </div>
           {/* <div className="relative w-30 h-20 mx-auto mt-8 justify-center md:w-96 md:h-96">
