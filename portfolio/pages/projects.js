@@ -50,7 +50,7 @@ export default function Projects() {
           </div>
         </section>
         <section className="flex flex-wrap:wrap justify-center align-center text-center flex-wrap:wrap items-stretch">
-            <div className='grid grid-cols-3 justify-center items-center ml-auto mr-auto max-w-l"'>
+            <div className='grid grid-cols-3 justify-center items-center ml-auto mr-auto max-w-l'>
               <div className="text-center shadow-lg dark:bg-gray-700 bg-gray-700 shadow-gray-700 dark:shadow-gray-700 p-1.5 rounded-xl my-8 mr-12 ml-12 mx-auto justify-center">
                 <Image className="border-solid border-2 dark:border-black rounded-xl" src={reelplaces} width={650} height={200}/>
                 <h3 className="text-3xl text-teal-500 dark:text-orange-200 font-extrabold pt-8 pb-2">REELPLACES</h3>

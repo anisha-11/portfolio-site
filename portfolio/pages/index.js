@@ -17,6 +17,10 @@ import { DiRuby } from "react-icons/di";
 import { DiStreamline } from "react-icons/di";
 import { DiTrello } from "react-icons/di";
 import { DiVisualstudio } from "react-icons/di";
+import { SiCypress } from "react-icons/si";
+import { SiJest } from "react-icons/si";
+import { TbSql } from "react-icons/tb";
+import { SiTailwindcss } from "react-icons/si";
 
 
 export default function Home() {
@@ -60,16 +64,22 @@ export default function Home() {
               order to make a positive impact on the future of technology for the society.
             </p> */}
           </div>
-          <div className="text-5xl flex justify-center gap-16 py-3 text-teal-600 dark:text-orange-200 md:text-6xl">
-            <DiCss3Full/>
-            <DiHtml5/>
+          <div className="flex justify-between ml-18 text-center text-5xl py-3 text-teal-600 dark:text-orange-200 md:text-6xl">
+            <div className="flex gap-5 justify-between ml-auto mr-auto max-w-l">
             <DiJsBadge/>
-            <DiMongodb/>
             <DiReact/>
             <DiRuby/>
+            <DiHtml5/>
+            <DiCss3Full/>
+            <SiTailwindcss/>
+            <TbSql/>
+            <SiCypress/>
+            <SiJest/>
+            <DiMongodb/>
             <DiStreamline/>
             <DiTrello/>
             <DiVisualstudio/>
+            </div>
           </div>
           {/* <div className="relative w-30 h-20 mx-auto mt-8 justify-center md:w-96 md:h-96">
             <Image className="rounded-xl shadow-lg shadow-gray-700  dark:shadow-orange-200 mx-auto" src={profile}/>
