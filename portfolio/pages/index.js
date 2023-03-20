@@ -1,12 +1,5 @@
 import Head from 'next/head';
 import {BsFillMoonStarsFill} from "react-icons/bs";
-import {AiFillGithub, AiFillLinkedin} from "react-icons/ai";
-import Image from "next/image";
-import profile from "../public/portrait.png";
-import reelplaces from "../public/reelplaces-ss.png";
-import acebook from "../public/acebook-new.png";
-import bnb from "../public/makersbnb.png";
-import { SiCodewars } from "react-icons/si";
 import { useState } from "react";
 import { DiCss3Full } from "react-icons/di";
 import { DiHtml5 } from "react-icons/di";
@@ -59,10 +52,6 @@ export default function Home() {
           <div className="text-center p-10 py-10">
             <h2 className="h-20 text-5xl py-20 mt-20 text-teal-600 dark:text-orange-200 font-bold">Anisha Hirani</h2>
             <h3 className="text-2xl py-2 mt-4 dark:text-white md:text-3xl">Software developer and designer & ex Maths and English Tutor.</h3>
-            {/* <p className="text-md py-5 leading-8 text-black dark:text-white md:text-xl max-w-lg mx-auto">
-              Makers Academy graduate that is passionate about working in the tech industry in 
-              order to make a positive impact on the future of technology for the society.
-            </p> */}
           </div>
           <div className="flex justify-between ml-18 text-center text-5xl py-3 text-teal-600 dark:text-orange-200 md:text-6xl">
             <div className="flex gap-5 justify-between ml-auto mt-5 mr-auto max-w-l">
@@ -81,55 +70,6 @@ export default function Home() {
             <div class="relative before:z-10 before:absolute before:left-1/2 before:-top-3 before:w-max before:max-w-xs before:-translate-x-1/2 before:-translate-y-full before:rounded-lg before:bg-gray-700 dark:before:bg-teal-600 before:px-2 before:py-1.5 before:text-white before:text-sm before:invisible before:content-[attr(data-tip)] after:z-10 after:absolute after:left-1/2 after:-top-3 after:h-0 after:w-0 after:-translate-x-1/2 after:border-8 after:border-t-gray-700 after:border-l-transparent after:border-b-transparent after:border-r-transparent after:invisible hover:before:visible hover:after:visible" data-tip="VSCode"><DiVisualstudio/></div>
             </div>
           </div>
-          {/* <div className="relative w-30 h-20 mx-auto mt-8 justify-center md:w-96 md:h-96">
-            <Image className="rounded-xl shadow-lg shadow-gray-700  dark:shadow-orange-200 mx-auto" src={profile}/>
-          </div>  */}
-        </section>
-        
-        <section className="flex justify-center align-center text-center flex-wrap:wrap items-stretch">
-          {/* <div className='flex-col justify-center items-center ml-auto mr-auto max-w-l"'>
-            <div className="text-center shadow-lg dark:bg-teal-600 bg-gray-700 shadow-gray-700 dark:shadow-teal-600 p-1.5 rounded-xl my-8 mr-12 ml-12 mt-0 mx-auto justify-center">
-              <Image className="border-solid border-2 dark:border-black rounded-xl" src={reelplaces} width={650} height={200}/>
-              <h3 className="text-4xl text-teal-500 dark:text-orange-200 font-extrabold pt-8 pb-2">REELPLACES</h3>
-              <p className="text-md py-5 leading-5 text-white dark:text-white md:text-xl max-w-xl mx-auto">
-                Makers final project! A web-application that allows you to search for a location 
-                you are currently 
-                at and shows you the top 20 movies filmed in that particular location 
-                with a map that pinpoints that location. </p>
-            </div>
-            <div className="text-center bg-gray-700 dark:bg-teal-600 shadow-lg shadow-gray-700 dark:shadow-teal-600 p-1.5 rounded-xl my-8 mr-12 ml-12 mx-auto justify-center">
-              <Image className="border-solid border-2 dark:border-black rounded-xl" src={acebook} width={650} height={200} />
-              <h3 className="text-4xl text-teal-500 dark:text-orange-200 font-extrabold pt-8 pb-2">ACEBOOK</h3>
-              <p className="text-md py-5 leading-8 text-white dark:text-white md:text-xl max-w-xl mx-auto">A clone of Facebook using the MERN Stack and allowing users to comment, upload pictures and have fun on this social media platform.</p>
-            </div>
-            <div className="text-center display-flex dark:bg-teal-600 shadow-lg bg-gray-700 shadow-gray-700 dark:shadow-teal-600 p-1.5 rounded-xl my-8 mr-12 ml-12 mx-auto justify-center">
-              <Image className="border-solid border-2 dark:border-black rounded-xl" src={bnb} width={650} height={200} />
-              <h3 className="text-4xl  text-teal-500 dark:text-orange-200 font-extrabold pt-8 pb-2">MAKERS-BNB</h3>
-              <p className="text-md py-5 leading-8 text-white dark:text-white md:text-xl max-w-xl mx-auto">First ever group project with Makers which was a clone of AirBnB using Ruby, Sinatra, databases and much more.</p>
-            </div>
-          </div> */}
-          {/* <div> */}
-            {/* <h3 className="text-4xl py-1 text-center">Projects Made</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 text-center">include text about projects.</p> */}
-          {/* </div>
-          <div>
-            <div className="text-center shadow-lg p-12 rounded-xl my-8 mr-12 mx-auto justify-center">
-              <Image src={acebook} width={568} height={200}/>
-              <h3 className="text-lg font-medium pt-8 pb-2">Acebook</h3>
-              <p>created web application....add more later</p>
-            </div>
-          </div>
-          <div> */}
-            {/* <h3 className="text-3xl py-1 text-center">Projects Made</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 ">include text about projects.</p> */}
-          {/* </div>
-          <div>
-            <div className="text-center display-flex shadow-lg p-12 rounded-xl my-8 mr-12 mx-auto justify-center">
-              <Image src={bnb} width={650} height={200}/>
-              <h3 className="text-lg font-medium pt-8 pb-2">MakersBnB</h3>
-              <p>created web application....add more later</p>
-            </div>
-          </div> */}
         </section>
       </main>
     </div>
