@@ -26,23 +26,23 @@ export default function Projects() {
       <main className="bg-orange-100 px-0 md:px-20 lg:px-0 dark:bg-teal-600">
         <navbar className="fixed w-full z-20 top-0 left-0 bottom-50 bg-gray-700 py-10 mb-9 flex justify-between dark:bg-gray-700">
           <h1 className='text-xl text-teal-500 dark:text-orange-200 font-bold font-burtons ml-8 tracking-wider'>Developed by Anisha Hirani</h1>
-            <ul className="flex items-center">
-              <li>
-                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='ml-8 cursor-pointer text-2xl'/>
-              </li>
-              <li>
-                <a className="bg-teal-600 hover:bg-teal-700 text-white dark:bg-orange-200 dark:hover:bg-orange-300 dark:text-black px-4 py-2 rounded-md ml-8 mr-8" href="/Anisha Hirani - CV.pdf" target="_blank">Resume</a>
-              </li>
-              <li> 
-                <a className="bg-teal-600 hover:bg-teal-700 text-white dark:bg-orange-200 dark:hover:bg-orange-300 dark:text-black px-4 py-2 rounded-md ml-0 mr-4" href="/about" target>About</a>
-              </li>
-              <li> 
-                <a className="bg-teal-600 hover:bg-teal-700 text-white dark:bg-orange-200 dark:hover:bg-orange-300 dark:text-black px-4 py-2 rounded-md ml-0 mr-4" href="/" target>Home</a>
-              </li>
-              <li> 
-                <a className="bg-teal-600 hover:bg-teal-700 text-white dark:bg-orange-200 dark:hover:bg-orange-300 dark:text-black px-4 py-2 rounded-md ml-0 mr-4" href="/" target>Projects</a>
-              </li>
-            </ul>
+          <ul className="flex items-center">
+            <li>
+              <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='mr-5 cursor-pointer text-2xl'/>
+            </li>
+            <li>
+              <a className="bg-teal-600 hover:bg-teal-700 text-white dark:bg-orange-200 dark:hover:bg-orange-300 dark:text-black px-4 py-2 rounded-md ml-0 mr-4" href="/" target>Home</a>
+            </li>
+            <li> 
+              <a className="bg-teal-600 hover:bg-teal-700 text-white dark:bg-orange-200 dark:hover:bg-orange-300 dark:text-black px-4 py-2 rounded-md ml-0 mr-4" href="/about" target>About</a>
+            </li>
+            <li> 
+              <a className="bg-teal-600 hover:bg-teal-700 text-white dark:bg-orange-200 dark:hover:bg-orange-300 dark:text-black px-4 py-2 rounded-md ml-0 mr-4" href="/projects" target>Projects</a>
+            </li>
+            <li> 
+              <a className="bg-teal-600 hover:bg-teal-700 text-white dark:bg-orange-200 dark:hover:bg-orange-300 dark:text-black px-4 py-2 rounded-md ml-0 mr-4" href="/Anisha Hirani - CV.pdf" target="_blank">Resume</a>
+            </li>
+          </ul>
         </navbar>
         <section className="flex flex-wrap:wrap justify-center align-center text-center flex-wrap:wrap items-stretch">
           <div className="h-20 text-5xl py-20 mt-20 text-teal-600 dark:text-orange-200 font-bold">
