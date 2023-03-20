@@ -1,20 +1,9 @@
 import Head from 'next/head';
 import {BsFillMoonStarsFill} from "react-icons/bs";
 import { useState } from "react";
-import { DiCss3Full } from "react-icons/di";
-import { DiHtml5 } from "react-icons/di";
-import { DiJsBadge } from "react-icons/di";
-import { DiMongodb } from "react-icons/di";
-import { DiReact } from "react-icons/di";
-import { DiRuby } from "react-icons/di";
-import { DiStreamline } from "react-icons/di";
-import { DiTrello } from "react-icons/di";
-import { DiVisualstudio } from "react-icons/di";
-import { SiCypress } from "react-icons/si";
-import { SiJest } from "react-icons/si";
+import { DiCss3Full,DiHtml5, DiJsBadge, DiMongodb, DiReact, DiRuby, DiStreamline, DiTrello, DiVisualstudio } from "react-icons/di";
+import { SiCypress, SiJest, SiTailwindcss} from "react-icons/si";
 import { TbSql } from "react-icons/tb";
-import { SiTailwindcss } from "react-icons/si";
-
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -30,24 +19,24 @@ export default function Home() {
       <main className="bg-orange-100 px-0 md:px-20 lg:px-0 dark:bg-gray-700">
         <section className="min-h-screen">
           <navbar className="fixed w-full z-20 top-0 left-0 bottom-50 bg-gray-700 py-10 mb-9 flex justify-between dark:bg-teal-600">
-          <h1 className='text-xl text-teal-500 dark:text-orange-200 font-bold font-burtons ml-8 tracking-wider'>Developed by Anisha Hirani</h1>
-          <ul className="flex items-center">
-            <li>
-              <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='mr-5 cursor-pointer text-2xl'/>
-            </li>
-            <li>
-              <a className="bg-teal-600 hover:bg-teal-700 text-white dark:bg-orange-200 dark:hover:bg-orange-300 dark:text-black px-4 py-2 rounded-md ml-0 mr-4" href="/" target>Home</a>
-            </li>
-            <li> 
-              <a className="bg-teal-600 hover:bg-teal-700 text-white dark:bg-orange-200 dark:hover:bg-orange-300 dark:text-black px-4 py-2 rounded-md ml-0 mr-4" href="/about" target>About</a>
-            </li>
-            <li> 
-              <a className="bg-teal-600 hover:bg-teal-700 text-white dark:bg-orange-200 dark:hover:bg-orange-300 dark:text-black px-4 py-2 rounded-md ml-0 mr-4" href="/projects" target>Projects</a>
-            </li>
-            <li> 
-              <a className="bg-teal-600 hover:bg-teal-700 text-white dark:bg-orange-200 dark:hover:bg-orange-300 dark:text-black px-4 py-2 rounded-md ml-0 mr-4" href="/Anisha Hirani - CV.pdf" target="_blank">Resume</a>
-            </li>
-          </ul>
+            <h1 className='text-xl text-teal-500 dark:text-orange-200 font-bold font-burtons ml-8 tracking-wider'>Developed by Anisha Hirani</h1>
+            <ul className="flex items-center">
+              <li>
+                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='mr-5 cursor-pointer text-2xl'/>
+              </li>
+              <li>
+                <a className="bg-teal-600 hover:bg-teal-700 text-white dark:bg-orange-200 dark:hover:bg-orange-300 dark:text-black px-4 py-2 rounded-md ml-0 mr-4" href="/" target>Home</a>
+              </li>
+              <li> 
+                <a className="bg-teal-600 hover:bg-teal-700 text-white dark:bg-orange-200 dark:hover:bg-orange-300 dark:text-black px-4 py-2 rounded-md ml-0 mr-4" href="/about" target>About</a>
+              </li>
+              <li> 
+                <a className="bg-teal-600 hover:bg-teal-700 text-white dark:bg-orange-200 dark:hover:bg-orange-300 dark:text-black px-4 py-2 rounded-md ml-0 mr-4" href="/projects" target>Projects</a>
+              </li>
+              <li> 
+                <a className="bg-teal-600 hover:bg-teal-700 text-white dark:bg-orange-200 dark:hover:bg-orange-300 dark:text-black px-4 py-2 rounded-md ml-0 mr-4" href="/Anisha Hirani - CV.pdf" target="_blank">Resume</a>
+              </li>
+            </ul>
           </navbar>
           <div className="text-center p-10 py-10">
             <h2 className="h-20 text-5xl py-20 mt-20 text-teal-600 dark:text-orange-200 font-bold">Anisha Hirani</h2>
