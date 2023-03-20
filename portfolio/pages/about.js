@@ -38,7 +38,7 @@ export default function About() {
                 <a className="bg-teal-600 hover:bg-teal-700 text-white dark:bg-orange-200 dark:hover:bg-orange-300 dark:text-black px-4 py-2 rounded-md ml-0 mr-4" href="/projects" target>Projects</a>
               </li>
               <li> 
-                <a className="bg-teal-600 hover:bg-teal-700 text-white dark:bg-orange-200 dark:hover:bg-orange-300 dark:text-black px-4 py-2 rounded-md ml-0 mr-4" href="/Anisha Hirani - CV.pdf" target="_blank">Resume</a>
+                <a className="bg-teal-600 hover:bg-teal-700 text-white dark:bg-orange-200 dark:hover:bg-orange-300 dark:text-black px-4 py-2 rounded-md ml-0 mr-4" href="/Anisha Hirani - CV.pdf" target>Resume</a>
               </li>
             </ul>
           </navbar>
@@ -48,9 +48,9 @@ export default function About() {
               <div className='relative w-30 h-20 mt-52 ml-40 justify-center md:w-96 md:h-96'> 
                 <Image className="rounded-xl shadow-lg shadow-gray-700  dark:shadow-gray-700" src={profile}/>
                 <div className='text-5xl flex gap-14 h-60 w-90 px-12 p-20 py-10 text-teal-600 dark:text-orange-200 md:text-6xl'>
-                  <a className='hover:text-gray-700 dark:hover:text-gray-700' href={gitHub} target="_blank"><AiFillGithub /></a>
-                  <a className='hover:text-gray-700 dark:hover:text-gray-700' href={codeWars} target="_blank"><SiCodewars /></a>
-                  <a className='hover:text-gray-700 dark:hover:text-gray-700' href={linkedIn} target="_blank"><AiFillLinkedin/></a>
+                  <a className='hover:text-gray-700 dark:hover:text-gray-700' href={gitHub}><AiFillGithub /></a>
+                  <a className='hover:text-gray-700 dark:hover:text-gray-700' href={codeWars}><SiCodewars /></a>
+                  <a className='hover:text-gray-700 dark:hover:text-gray-700' href={linkedIn}><AiFillLinkedin/></a>
                 </div>
               </div> 
                 <div className='w-90'>

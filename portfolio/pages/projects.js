@@ -40,7 +40,7 @@ export default function Projects() {
               <a className="bg-teal-600 hover:bg-teal-700 text-white dark:bg-orange-200 dark:hover:bg-orange-300 dark:text-black px-4 py-2 rounded-md ml-0 mr-4" href="/projects" target>Projects</a>
             </li>
             <li> 
-              <a className="bg-teal-600 hover:bg-teal-700 text-white dark:bg-orange-200 dark:hover:bg-orange-300 dark:text-black px-4 py-2 rounded-md ml-0 mr-4" href="/Anisha Hirani - CV.pdf" target="_blank">Resume</a>
+              <a className="bg-teal-600 hover:bg-teal-700 text-white dark:bg-orange-200 dark:hover:bg-orange-300 dark:text-black px-4 py-2 rounded-md ml-0 mr-4" href="/Anisha Hirani - CV.pdf" target>Resume</a>
             </li>
           </ul>
         </navbar>
@@ -59,8 +59,8 @@ export default function Projects() {
                 pin pointed nearby filming location of the top 20 movies.
               </p>
               <div className="text-5xl flex justify-center gap-16 py-3 text-teal-600 dark:text-orange-200 md:text-6xl">
-                <a className='hover:text-orange-100' href={reelplacesRepo} target="_blank"><AiFillGithub /></a>
-                <a className='hover:text-orange-100' href={reelplacesLink} target="_blank"><HiOutlineLink /></a>
+                <a className='hover:text-orange-100' href={reelplacesRepo}><AiFillGithub /></a>
+                <a className='hover:text-orange-100' href={reelplacesLink}><HiOutlineLink /></a>
               </div>
             </div>
             <div className="text-center bg-gray-700 dark:dark:bg-gray-700 shadow-lg shadow-gray-700 dark:shadow-gray-700 p-1.5 rounded-xl my-8 mr-12 ml-12 mx-auto justify-center">
@@ -68,7 +68,7 @@ export default function Projects() {
               <h3 className="text-3xl text-teal-500 dark:text-orange-200 font-extrabold pt-8 pb-2">ACEBOOK</h3>
               <p className="text-md py-5 leading-8 text-white dark:text-white md:text-md max-w-xl mx-auto">Similar to Facebook using the MERN Stack and allowing users to comment, upload pictures and have fun on this social media platform.</p>
               <div className="text-5xl flex justify-center gap-16 py-3 text-teal-600 dark:text-orange-200 md:text-6xl">
-                <a className='hover:text-orange-100' href={acebookRepo} target="_blank"><AiFillGithub /></a>
+                <a className='hover:text-orange-100' href={acebookRepo}><AiFillGithub /></a>
               </div>
             </div>
             <div className="text-center display-flex dark:bg-gray-700 shadow-lg bg-gray-700 shadow-gray-700 dark:shadow-gray-700 p-1.5 rounded-xl my-8 mr-12 ml-12 mx-auto justify-center">
@@ -80,7 +80,7 @@ export default function Projects() {
               out a space.
               </p>
               <div className="text-5xl flex justify-center gap-16 py-3 text-teal-600 dark:text-orange-200 md:text-6xl">
-                <a className='hover:text-orange-100' href={bnbRepo} target="_blank"><AiFillGithub /></a>
+                <a className='hover:text-orange-100' href={bnbRepo}><AiFillGithub /></a>
               </div>
             </div>
           </div>
