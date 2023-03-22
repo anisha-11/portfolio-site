@@ -1,17 +1,18 @@
 # Portfolio Site
 
+I was lucky enough to be able to deploy my site on the web. Follow this [link](https://anishahirani.vercel.app/) to view my portfolio!
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+It uses a React framework with HTML and CSS to help with the styling.
 
 ## Getting Started
 
 First, run the development server:
 
 ```bash
+cd portfolio
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
