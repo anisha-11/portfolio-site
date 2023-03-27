@@ -4,6 +4,7 @@ import reelplaces from "../public/reelplaces-ss.png";
 import acebook from "../public/acebook-new.png";
 import bnb from "../public/makersbnb.png";
 import chitter from "../public/chitter.png";
+import bank from "../public/bank.png";
 import {BsFillMoonStarsFill} from "react-icons/bs";
 import {AiFillGithub} from "react-icons/ai";
 import { HiOutlineLink } from "react-icons/hi";
@@ -89,6 +90,14 @@ export default function Projects() {
               <Image className="border-solid border-2 dark:border-black rounded-xl" src={chitter} width={650} height={200} />
               <h3 className="text-3xl text-teal-500 dark:text-orange-200 font-extrabold pt-8 pb-2">CHITTER</h3>
               <p className="text-md py-5 leading-8 text-white dark:text-white md:text-md max-w-xl mx-auto">Similar to Twitter using Ruby, PostgreSQL databases to login, make and view peeps and also have fun on this social media platform.</p>
+              <div className="text-5xl flex justify-center gap-16 py-3 text-teal-600 dark:text-orange-200 md:text-6xl">
+                <a className='hover:text-orange-100' href={chitterRepo}><AiFillGithub /></a>
+              </div>
+            </div>
+            <div className="text-center bg-gray-700 dark:dark:bg-gray-700 shadow-lg shadow-gray-700 dark:shadow-gray-700 p-1.5 rounded-xl my-8 mr-12 ml-12 mt-1 mx-auto justify-center">
+              <Image className="border-solid border-2 dark:border-black rounded-xl" src={bank} width={650} height={200} />
+              <h3 className="text-3xl text-teal-500 dark:text-orange-200 font-extrabold pt-8 pb-2">BANK TECH TEST</h3>
+              <p className="text-md py-5 leading-8 text-white dark:text-white md:text-md max-w-xl mx-auto">A TDD app that opens a bank account to allow transactions from deposits and withdrawals to take place.</p>
               <div className="text-5xl flex justify-center gap-16 py-3 text-teal-600 dark:text-orange-200 md:text-6xl">
                 <a className='hover:text-orange-100' href={chitterRepo}><AiFillGithub /></a>
               </div>
