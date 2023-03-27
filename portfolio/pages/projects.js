@@ -16,6 +16,7 @@ export default function Projects() {
   const acebookRepo = "https://github.com/anisha-11/acebook";
   const bnbRepo = "https://github.com/anisha-11/MakersBnB";
   const chitterRepo = "https://github.com/anisha-11/chitter-challenge";
+  const bankRepo = "https://github.com/anisha-11/bank-tech-test";
   const [darkMode, setDarkMode] = useState(false);
   return (
     <div className={darkMode ? 'dark' : ""}>
@@ -99,7 +100,7 @@ export default function Projects() {
               <h3 className="text-3xl text-teal-500 dark:text-orange-200 font-extrabold pt-8 pb-2">BANK TECH TEST</h3>
               <p className="text-md py-5 leading-8 text-white dark:text-white md:text-md max-w-xl mx-auto">A TDD app that opens a bank account to allow transactions from deposits and withdrawals to take place.</p>
               <div className="text-5xl flex justify-center gap-16 py-3 text-teal-600 dark:text-orange-200 md:text-6xl">
-                <a className='hover:text-orange-100' href={chitterRepo}><AiFillGithub /></a>
+                <a className='hover:text-orange-100' href={bankRepo}><AiFillGithub /></a>
               </div>
             </div>
           </div>
