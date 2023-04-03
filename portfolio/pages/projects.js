@@ -49,8 +49,9 @@ export default function Projects() {
           </ul>
         </navbar>
         <section className="flex flex-wrap:wrap justify-center align-center text-center flex-wrap:wrap items-stretch">
-          <div className="h-20 text-5xl py-20 mt-20 text-teal-600 dark:text-orange-200 font-bold">
-            <h1 className='mt-3'>PROJECTS</h1>
+          <div className="mt-20">
+            <h1 className='h-20 text-5xl py-20  text-teal-600 dark:text-orange-200 font-bold'>PROJECTS</h1>
+            <h3 className='text-2xl text-black dark:text-white font-semibold'>Scroll Down</h3>
           </div>
         </section>
         <section className="flex flex-wrap:wrap justify-center align-center text-center flex-wrap:wrap items-stretch">
